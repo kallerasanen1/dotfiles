@@ -3,13 +3,6 @@
 .gitignore_global
 .gitcookies
 
-{{- if (ne .chezmoi.os "darwin") }}
-.hammerspoon/**
-.mackup/**
-.mackup.cfg
-.config/kitty/**
-{{ end -}}
-
 {{- if ne .chezmoi.os "linux" }}
 .local/share/fonts/**
 {{ end -}}
