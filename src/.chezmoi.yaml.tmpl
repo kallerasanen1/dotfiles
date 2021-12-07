@@ -25,7 +25,7 @@
 {{- end -}}
 
 {{- /* Initializes the name variable with a default value */ -}}
-{{- $name := "<first name> <last name>" -}}
+{{- $name := "Kalle Räsänen" -}}
 {{- /* If name was previously set, reuses it */ -}}
 {{- if hasKey . "name" -}}
 {{-   $name = .name -}}
@@ -35,7 +35,7 @@
 {{- end -}}
 
 {{- /* Does the same for the email */ -}}
-{{- $email := "<email>" -}}
+{{- $email := "kallerasanen1@gmail.com" -}}
 {{- if hasKey . "email" -}}
 {{-   $email = .email -}}
 {{- else if $interactive -}}
@@ -43,7 +43,7 @@
 {{- end -}}
 
 {{- /* Does the same for the work email */ -}}
-{{- $email_work := "<work email>" -}}
+{{- $email_work := "kalle.rasanen@dagmar.fi" -}}
 {{- if hasKey . "email_work" -}}
 {{-   $email_work = .email_work -}}
 {{- else if $interactive -}}
