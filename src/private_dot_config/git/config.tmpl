@@ -34,7 +34,7 @@
 	path = ~/.config/git/dagmar
 {{ end -}}
 
-{{ if .is_personal -}}
+{{ if not .is_codespace -}}
 [includeIf "gitdir:**/Dagmar/*/"]
 	path = ~/.config/git/dagmar
 {{ end -}}
