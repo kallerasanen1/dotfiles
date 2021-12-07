@@ -22,7 +22,6 @@ To create your own dotfiles, you can fork this repository and then search and re
 
 * `<first name>`
 * `<last name>`
-* `<username>`
 * `<email>`
 * `<work email>`
 
